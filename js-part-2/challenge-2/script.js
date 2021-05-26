@@ -29,11 +29,11 @@ const calcTip = (bill) => {
 let bills = Array(125, 555, 44);
 let tips = [];
 let total = Array();
-// tips
+// tips amount
 tips.push(calcTip(bills[0]));
 tips.push(calcTip(bills[1]));
 tips.push(calcTip(bills[2]));
-// total
+// total total amount
 total.push(calcTip(bills[0]) + bills[0]);
 total.push(calcTip(bills[1]) + bills[1]);
 total.push(calcTip(bills[2]) + bills[2]);
